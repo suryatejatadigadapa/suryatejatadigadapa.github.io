@@ -1,0 +1,190 @@
+
+
+
+#banner
+{
+	background-attachment: fixed;
+	background-color: #add8e6;
+	background-image: url("ncsa_vertical.jpg");
+	background-position: center center;
+	background-size: cover;
+	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+	min-height: 100vh;
+	position: relative;
+	text-align: center;
+	z-index: 21;
+}
+
+	#banner .content 
+	{
+		display: inline-block;
+		margin-right: 1%;
+		max-width: 95%;
+		padding: 6em;
+		position: relative;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 1;
+	}
+
+		#banner .content header 
+		{
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		#banner .content header h2 
+		{
+			color: white;
+			font-size: 3.5em;
+			margin: 0;
+		}
+
+		#banner .content header h3 
+		{
+			color: white;
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#banner .content header p 
+		{
+			margin: 0.5em 0 0 0;
+			top: 0;
+		}
+			
+		#banner .content .image 
+		{
+			border-radius: 100%;
+			display: inline-block;
+			height: 18em;
+			margin-left: 3em;
+			vertical-align: middle;
+			width: 18em;
+		}
+
+		#banner .content .image img 
+		{
+			border-radius: 100%;
+			display: block;
+			width: 100%;
+		}
+
+
+
+
+
+
+
+
+.icon
+{
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+
+	.icon:before
+	{
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+
+	.icon > .label 
+	{
+		display: none;
+	}
+
+	.icon.alt 
+	{
+		text-decoration: none;
+	}
+
+		.icon.alt:before 
+		{
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon.alt:before 
+		{
+			color: #1c1d26 !important;
+			text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+		}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+  color: transparent;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+
+#section1 {
+	
+	h1 {
+	    text-align: center;
+	}
+
+	h2 {
+	    text-align: right;
+	}
+
+	h3 {
+	    text-align: justify;
+	}
+
+}
+
+#pageheads{
+text-align: center;
+}
+
+#intro {
+text-align: justify;
+}
+
+
+#workcaption{
+
+}
+
+#workdesc{
+
+}
+
+#resume_spot{
+	text-align: center;
+}
+
+#projectcaption{
+
+}
+
+#projectdesc{
+
+}
+
+#hobbydesc{
+
+}
