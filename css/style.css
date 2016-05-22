@@ -139,21 +139,49 @@
   border-radius: 35px;
 }
 
+/*
+<!--#section5 {padding-top:50px;height:701px;color: #000000; background-color: #A9A9A9;}-->
+<!--     #myNavbar {color: #1E88E5; background-color: #ffffff;} -->
+*/
 
-#section1 {
-	
-	h1 {
-	    text-align: center;
-	}
-
-	h2 {
-	    text-align: right;
-	}
-
-	h3 {
-	    text-align: justify;
-	}
-
+#Home {
+	padding-top:50px;
+	height:771px;
+	color: #ffffff; 
+	background-color: #272833;
+	overflow-y:auto;
+	text-align: center;
+}
+#Bio {
+	padding-top:50px;
+	height:771px;
+	color: #000000; 
+	background-color: #A9A9A9;
+	overflow-y:auto;
+}
+#WorkExperience {
+	padding-top:50px;
+	height:771px;
+	color: #ffffff; 
+	background-color: #272833;
+	overflow-y:auto;
+}
+#Projects {
+	padding-top:50px;
+	height:771px;
+	color: #000000; 
+	background-color: #A9A9A9;
+	overflow-y:auto;
+}
+#AboutMe {
+	padding-top:50px;
+	height:661px;
+	color: #ffffff; 
+	background-color: #272833;
+	overflow-y:auto;
+}
+#section7 {
+	background-color: #A9A9A9;
 }
 
 #pageheads{
