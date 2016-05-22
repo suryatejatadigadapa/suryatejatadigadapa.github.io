@@ -1,9 +1,509 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Surya's Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-Hello World, my name is Surya Teja Tadigadapa.
-<a href = "resume.pdf">Resume</a>
-</body>
+    <link href = "css/bootstrap.css" rel = "stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/e404675df5.js"></script>    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <style>
+
+    body
+    {
+      position: relative; 
+    }
+
+    .affix {
+        top:0;
+        width: 100%;
+        z-index: 9999 !important;
+    }
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .affix ~ .container-fluid {
+       position: relative;
+       top: 50px;
+    }
+
+
+    #section1 {padding-top:50px;height:771px;color: #ffffff; background-color: #272833;}
+    #section2 {padding-top:50px;height:771px;color: #000000; background-color: #A9A9A9;}
+    #section6 {padding-top:50px;height:771px;color: #ffffff; background-color: #272833;}
+    #section3 {padding-top:50px;height:771px;color: #000000; background-color: #A9A9A9;}
+    #section4 {padding-top:50px;height:661px;color: #ffffff; background-color: #272833;}
+    #section7 {background-color: #A9A9A9;}
+    </style>
+  </head>
+    <!--#section5 {padding-top:50px;height:701px;color: #000000; background-color: #A9A9A9;}-->
+  <!--     #myNavbar {color: #1E88E5; background-color: #ffffff;} -->
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+    <!--================== Nav Bar ===================-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Surya Teja Tadigadapa</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <!-- 
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <!-=-
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+            </li>
+            -=-=>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+          </ul>
+        -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">Introduction</a></li>
+            <li><a href="#section6">Work Experience</a></li>
+            <li><a href="#section3">Projects</a></li>
+            <li><a href="#section4">About Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="section1" class="container-fluid">
+       <h1>Surya Teja Tadigadapa</h1>
+              <h3>Software Developer <br /> I DREAM. I CODE. I CREATE.</h3>
+              <ul class="list-unstyled">
+                <li>
+                <a href="#" class="icon alt fa-facebook fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-twitter fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-linkedin fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-github fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-envelope fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-youtube fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-medium fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-google fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-soundcloud fa-3x fa-fw"></a>
+                &nbsp;
+                <a href="#" class="icon alt fa-instagram fa-3x fa-fw"></a>
+                </li>
+              </ul>
+      <button type="button" class="btn btn-default btn-circle btn-lg">
+      <a href="file:///C:/Users/Teja/Desktop/website/suryaindex.html#section2" class="icon alt fa-arrow-down fa"></a>
+      </button>
+      
+      <a href="file:///C:/Users/Teja/Desktop/website/suryaindex.html#section2" button type="button" class="btn btn-default btn-circle btn-lg" ></a>
+      <span class="icon alt fa-arrow-down fa" ></span>
+    </div>
+    
+
+
+
+
+
+    <div id="section2" class="container-fluid">
+      <div id = "pageheads">
+        <h1>Bio</h1>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-3">
+          .col-sm-4
+        </div>
+        <div class="col-sm-6">
+          <div id = "intro">
+            <h2> I'm currently a Junior at University of Illinois at Urbana-Champaign, majoring in Computer Engineering with a minor in Statistics. I love technology, running and cracking puns. Also, Did you know that if you take your laptop for a run it will jog your memory? :D
+            When I'm not typing on a computer keyboard, I dabble on a musical keyboard while contemplating the realms of reality.
+            I've recently gotten into endurance sports and ran my first sprint triathlon.
+            I also per form magic tricks sometimes and recently did an Etsy School class to teach people magic.
+            One day I wish to climb Mt. Everest.</h2>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          .col-sm-4
+        </div>
+      </div>
+      
+      <div class = "container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="ncsa.jpg" height="150" width="280">
+          </div>
+          <div class="col-sm-4">
+             <img src="ibm.png" height="150" width="280">
+          </div>
+          <div class="col-sm-4">
+            <img src="ibm.png" height="150" width="280">
+          </div>
+        </div>
+      </div> 
+    </div>
+
+
+
+
+  <!--================== Work ===================-->
+    <div id="section6" class="container-fluid">
+      <div id = "pageheads">
+        <h1>Work Experience</h1>
+        <br />
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <h1>Blank Space</h1>
+        </div>
+        <div class="col-sm-3">
+          <img src="ncsa.jpg" height="150" width="280">
+          <div id = "workcaption">
+            <h1>NCSA</h1>
+          </div>
+          <div id="workdesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <img src="ibm.png" height="150" width="280">
+          <div id = "workcaption">
+            <h1>IBM</h1>
+          </div>
+          <div id="workdesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <h1>Blank Space</h1>
+        </div>
+      </div>
+
+      <div id = "resume_spot">
+        <br/>
+        <h3>Here is a link to my Resume:</h3>
+        <a target="_blank" href="#" class="icon alt fa-file fa-5x fa-fw"></a>
+        <a target="_blank" href="#"><br/>Surya Teja Tadigadapa Resume</a>
+      </div>
+    </div>
+
+    <!--================== Projects ===================-->
+    <div id="section3" class="container-fluid">
+      <div id = "pageheads">
+        <h1>Projects</h1>
+        <br />
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2">
+          <h1>Blank Space</h1>
+        </div>
+        <div class="col-sm-2">
+          <img src="redblock.jpg" height="150" width="200">
+          <div id = "projectcaption">
+            <h4>Title</h4>
+          </div>
+          <div id="projectdesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+            </p>
+          </div>
+          <img src="redblock.jpg" height="150" width="200">
+          <div id = "projectcaption">
+            <h4>Title</h4>
+          </div>
+          <div id="projectdesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img src="redblock.jpg" height="150" width="200">
+          <div id = "projectcaption">
+            <h4>Title</h4>
+          </div>
+          <div id="projectdesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+            </p>
+          </div>
+          <img src="redblock.jpg" height="150" width="200">
+          <div id = "projectcaption">
+            <h4>Title</h4>
+          </div>
+          <div id="projectdesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img src="redblock.jpg" height="150" width="200">
+          <div id = "projectcaption">
+            <h4>Title</h4>
+          </div>
+          <div id="projectdesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+            </p>
+          </div>
+          <img src="redblock.jpg" height="150" width="200">
+          <div id = "projectcaption">
+            <h4>Title</h4>
+          </div>
+          <div id="projectdesc">
+            <p>
+              Some text here that talks of the above project.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess. 
+              Link team-mates somewhere.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img src="redblock.jpg" height="150" width="200">
+          <div id = "projectcaption">
+            <h4>Title</h4>
+          </div>
+          <div id="projectdesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+              Link team-mates somewhere.
+            </p>
+          </div>
+          <img src="redblock.jpg" height="150" width="200">
+          <div id = "projectcaption">
+            <h4>Title</h4>
+          </div>
+          <div id="projectdesc">
+            <p>
+              Some text here that talks of the above project.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess. 
+              Link team-mates somewhere.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h1>Blank Space</h1>
+        </div>
+      </div>
+    </div>
+
+    <!--================== About Me ===================-->
+    <div id="section4" class="container-fluid">
+      <div id = "pageheads">
+        <h1>About Me</h1>
+      </div>
+        
+      <div class="row">
+        <div class="col-sm-3">
+          <h1>Blank Space</h1>
+        </div>
+        <div class="col-sm-2">
+          <h1>Activity Icon Here</h1>
+          <div id="hobbydesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+            </p>
+          </div>
+          <h1>Activity Icon Here</h1>
+          <div id="hobbydesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h1>Activity Icon Here</h1>
+          <div id="hobbydesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+            </p>
+          </div>
+          <h1>Activity Icon Here</h1>
+          <div id="hobbydesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h1>Activity Icon Here</h1>
+          <div id="hobbydesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+            </p>
+          </div>
+          <h1>Activity Icon Here</h1>
+          <div id="hobbydesc">
+            <p>
+              Some text here that talks of the above hobby.
+              Fill in links to these hoobies.
+              Make it atleast 4 or 5 lines I guess.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <h1>Blank Space</h1>
+        </div>
+      </div>
+    </div> 
+  
+    <!--================== Footer ===================--> 
+    <footer>
+      <div class="row">
+        <div id = "section7" class = "col-sm-12">
+          <a target="_blank" href="#" class="icon alt fa-facebook fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="#" class="icon alt fa-twitter fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="#" class="icon alt fa-linkedin fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="#" class="icon alt fa-github fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="#" class="icon alt fa-envelope fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="#" class="icon alt fa-youtube fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="https://medium.com/@suryatejatadigadapa" class="icon alt fa-medium fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="#" class="icon alt fa-google fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="#" class="icon alt fa-soundcloud fa-2x fa-fw"></a>&nbsp;
+          <a target="_blank" href="#" class="icon alt fa-instagram fa-2x fa-fw"></a>&nbsp;
+          <h4> Copyright &copy; 2016 Surya Teja Tadigadapa.</h4>
+        </div>
+      </div>
+    </footer>
+ 
+  </body>
 
 </html>
+
+    <!--================== Section 5/Resume ===================
+    <div id="section5" class="container-fluid">
+      <div id = "pageheads">
+        <h1>Resume</h1>
+      </div>
+
+      <h1>Here is a link to my Resume.</h1>
+      <br/>
+      <a target="_blank" href="#" class="icon alt fa-file fa-5x fa-fw"></a>
+      <br/>
+      <h1>Or Get in touch at:</h1>
+      <br/>
+      <a target="_blank" href="#" class="icon alt fa-facebook fa fa-fw"></a>
+      <a target="_blank" href="#" class="icon alt fa-twitter fa fa-fw"></a>
+      <a target="_blank" href="#" class="icon alt fa-linkedin fa fa-fw"></a>
+      <a target="_blank" href="#" class="icon alt fa-github fa fa-fw"></a>
+      <a target="_blank" href="#" class="icon alt fa-envelope fa fa-fw"></a>
+      <a target="_blank" href="#" class="icon alt fa-youtube fa fa-fw"></a>
+      <a target="_blank" href="https://medium.com/@suryatejatadigadapa" class="icon alt fa-medium fa fa-fw"></a>
+      <a target="_blank" href="#" class="icon alt fa-google fa fa-fw"></a>
+      <a target="_blank" href="#" class="icon alt fa-soundcloud fa fa-fw"></a>
+      <a target="_blank" href="#" class="icon alt fa-instagram fa fa-fw"></a>
+    </div>
+    --> 
+
+    <!--================== Banner ===================
+      <section id="banner">
+        <div class="content">
+          
+          <header>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br />
+            <h2>&nbsp; &nbsp;Surya Teja Tadigadapa</h2>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software Developer<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I DREAM. I CODE. I CREATE.</h3>
+            <br />
+            <ul class="icons">
+              <li>
+              <a href="#" class="icon alt fa-facebook fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-twitter fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-linkedin fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-github fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-envelope fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-youtube fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-medium fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-google fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-soundcloud fa-3x fa-fw"></a>
+              &nbsp;
+              <a href="#" class="icon alt fa-instagram fa-3x fa-fw"></a>
+              </li>
+            </ul>
+          </header>
+        </div>
+      </section>
+  -->
