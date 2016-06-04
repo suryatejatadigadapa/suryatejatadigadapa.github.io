@@ -1143,6 +1143,9 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+  box-sizing: border-box;
+  background-color: #DDD;
+  border: 5px solid #cfd8dc;
 }
 hr {
   margin-top: 20px;
