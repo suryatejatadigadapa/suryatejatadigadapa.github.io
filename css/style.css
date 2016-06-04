@@ -145,47 +145,94 @@
 */
 
 #Home {
+	
+	/*background: url("http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg") no-repeat center center;
+  	background-size: cover;
+	height: 100vh;
+	background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .8; */
+	
 	padding-top:50px;
-	height:771px;
-	color: #ffffff; 
+	min-height: calc(690px * (90/150));
+  	height: 100vh;
+  	/*height:771px;*/
+	color: #ffffff;
 	background-color: #272833;
 	overflow-y:auto;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	/* vertically aligns items */
+  	align-items: center;
+  	/* horizontally aligns items */
 }
+
 #Bio {
 	padding-top:50px;
-	height:771px;
+	min-height: calc(690px * (90/150));
+  	height: 100vh;
+  	/*height:771px;*/
 	color: #000000; 
 	background-color: #A9A9A9;
 	overflow-y:auto;
+	/*display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	*/
 }
+
 #WorkExperience {
 	padding-top:50px;
-	height:771px;
+	min-height: calc(690px * (90/150));
+  	height: 100vh;
+    /*height:771px;*/
 	color: #ffffff; 
 	background-color: #272833;
 	overflow-y:auto;
 }
+
 #Projects {
 	padding-top:50px;
-	height:771px;
+	min-height: calc(690px * (90/150));
+  	height: 100vh;
+	/*height:771px;*/
 	color: #000000; 
 	background-color: #A9A9A9;
 	overflow-y:auto;
+/*	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;*/
+  
 }
+
 #AboutMe {
 	padding-top:50px;
-	height:661px;
+	min-height: calc(690px * (90/150));
+  	height: 87vh;
 	color: #ffffff; 
 	background-color: #272833;
 	overflow-y:auto;
+	text-align: left;
+/*	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+*/
+
+	
 }
+
 #section7 {
 	background-color: #A9A9A9;
 }
 
 #pageheads{
 text-align: center;
+font-family: 'Lato', sans-serif;
+font-size: 320%;
 }
 
 #intro {
@@ -198,21 +245,33 @@ text-align: justify;
 }
 
 #workdesc{
-
+	font-family: 'Lato', sans-serif;
+ 	font-size: 120%;
+	text-align: left;
 }
 
 #resume_spot{
 	text-align: center;
 }
 
-#projectcaption{
-
+#projectcaption
+{
+	font-family:"arial";
+	font-weight: bold;
+ 	font-size: 200%;
+	text-align: center;
 }
 
-#projectdesc{
-
+#projectdesc
+{
+	font-family:"helvetica neue";
+ 	font-size: 60%;
+	text-align: justify;
 }
 
-#hobbydesc{
-
+#hobbydesc
+{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 150%;
+	text-align: left;
 }
