@@ -61,11 +61,25 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Bio">Bio</a></li>
-            <li><a href="#WorkExperience">Work Experience</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#AboutMe">About Me</a></li>
+            <li>
+              <a href="#Home" class="hidden-xs">Home</a>
+              <a href="#Home" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Home</a>
+           </li>
+            <li>
+              <a href="#Bio" class="hidden-xs">Bio</a>
+              <a href="#Bio" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Bio</a>
+            </li>
+            <li>
+              <a href="#WorkExperience" class="hidden-xs">Work Experience</a></li>
+              <a href="#WorkExperience" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Work Experience</a>
+            <li>
+              <a href="#Projects" class="hidden-xs">Projects</a>
+              <a href="#Projects" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Projects</a>
+            </li>
+            <li>
+              <a href="#AboutMe" class="hidden-xs">About Me</a>
+              <a href="#AboutMe" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">About Me</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -73,9 +87,13 @@
   
   <!--================== Home ===================-->
     <div id="Home" class="container-fluid">
-      <img src="ibm.png" height="150" width="280">
-      <h1 style="font-family:'Arial'">Surya Teja Tadigadapa</h1>
-      <h3 style="font-family:'Arial'">Software Developer <br /> I DREAM. I CODE. I CREATE.</h3>
+      <img class="img-circle" src="teja.jpg" height="250" width="280">
+      <div id = "Name">
+        <p>Surya Teja Tadigadapa</p>
+      </div>
+      <div id = "tagline">
+        <p>Software Developer <br /> I Dream. I Code. I Create.</p>
+      </div>
       <ul class="list-unstyled">
         <li>
         <a target="_blank" href="https://www.facebook.com/suryateja" class="icon alt fa-facebook fa-3x fa-fw"></a>
@@ -144,6 +162,7 @@
           </div> -->
           <div id="workdesc">
             <p>
+              <br/>
               Some text here that talks of the above hobby.
               Fill in links to these hoobies.
               Make it atleast 4 or 5 lines I guess.
@@ -163,6 +182,7 @@
           </div> -->
           <div id="workdesc">
             <p>
+              <br/>
               Some text here that talks of the above hobby.
               Fill in links to these hoobies.
               Make it atleast 4 or 5 lines I guess.
@@ -182,9 +202,9 @@
 
       <div id = "resume_spot">
         <br/>
-        <h3>Here is a link to my Resume:</h3>
+        <!-- <h3>Here is a link to my Resume:</h3> -->
         <a target="_blank" href="resume.pdf" class="icon alt fa-file fa-5x fa-fw"></a>
-        <a target="_blank" href="resume.pdf"><br/>Surya Teja Tadigadapa Resume</a>
+        <a target="_blank" href="resume.pdf"><br/><p>Resume</p></a>
       </div>
     </div>
 
@@ -205,7 +225,7 @@
 
           <img src="redblock.jpg" height="150" width="200">
           <div id = "projectcaption">
-            <h4>Title</h4>
+            <p>Operating System</p>
           </div>
           <div id="projectdesc">
             <p>
@@ -215,11 +235,11 @@
 
           <img src="redblock.jpg" height="150" width="200">
           <div id = "projectcaption">
-            <h4>Title</h4>
+            <p>Whats On?</p>
           </div>
           <div id="projectdesc">
             <p>
-              
+              <br><br>
             </p>
           </div>
         </div>
@@ -228,7 +248,7 @@
 
           <img src="redblock.jpg" height="150" width="200">
           <div id = "projectcaption">
-            <h4>Title</h4>
+            <p>Touristy</p>
           </div>
           <div id="projectdesc">
             <p>
@@ -238,11 +258,11 @@
 
           <img src="redblock.jpg" height="150" width="200">
           <div id = "projectcaption">
-            <h4>Title</h4>
+            <p>Title</p>
           </div>
           <div id="projectdesc">
             <p>
-              
+              <br><br>
             </p>
           </div>
         </div>
@@ -251,7 +271,7 @@
 
           <img src="redblock.jpg" height="150" width="200">
           <div id = "projectcaption">
-            <h4>Title</h4>
+            <p>Title</p>
           </div>
           <div id="projectdesc">
             <p>
@@ -261,11 +281,11 @@
 
           <img src="redblock.jpg" height="150" width="200">
           <div id = "projectcaption">
-            <h4>Title</h4>
+            <p>Title</p>
           </div>
           <div id="projectdesc">
             <p>
-              
+              <br><br>
             </p>
           </div>          
         </div>
